@@ -18,11 +18,14 @@ Aplicação web para planejamento de viagens, permitindo buscar destinos, consul
 
 ## 🛠 Tecnologias utilizadas
 
-* HTML5, CSS3 e Bootstrap
-* JavaScript (ES6+) e jQuery
-* JSON Server (API fake)
-* Web Storage (LocalStorage)
-* API OpenWeather
+* HTML5
+* CSS3
+* Bootstrap v5.3.3
+* JavaScript (ES6+)
+* jQuery v3.7.1
+* JSON Server v0.17.x
+* Web Storage (localStorage)
+* OpenWeather API v2.5
 
 ---
 
