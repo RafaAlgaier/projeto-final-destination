@@ -1,15 +1,15 @@
 # Especificação Técnica
 
-## Tecnologias Utilizadas
+## Tecnologias e Versões
 
-* HTML5
-* CSS3
-* Bootstrap
-* JavaScript
-* jQuery
-* JSON Server (Fake API)
-* Web Storage
-* API pública de clima
+- HTML5
+- CSS3
+- Bootstrap v5.3.3
+- JavaScript (ES6+)
+- jQuery v3.7.1
+- JSON Server v0.17.x
+- Web Storage (localStorage)
+- OpenWeather API v2.5
 
 ---
 
@@ -75,16 +75,26 @@ Exemplo do arquivo `db.json`.
 
 ---
 
-# Integrações externas
+## Integração com API Pública – OpenWeather
 
-A aplicação também utiliza uma API pública de clima para mostrar informações meteorológicas do destino pesquisado.
+A aplicação utiliza a API OpenWeather para mostrar informações meteorológicas do destino pesquisado, como:
 
-Exemplo de dados consumidos:
+- temperatura (°C)
+- descrição do clima
+- ícone meteorológico
 
-* temperatura
-* condição do clima
-* ícone meteorológico
+### Endpoint base
+https://api.openweathermap.org/data/2.5/weather
 
+### Exemplo de requisição com fetch
+
+fetch(`https://api.openweathermap.org/data/2.5/weather?q=Paris&appid=API_KEY&units=metric`)
+.then(response => response.json())
+.then(data => console.log(data));
+
+### Observações
+- `API_KEY` deve ser substituída pela chave de acesso obtida no OpenWeather.
+- Unidade de temperatura configurada em Celsius (`units=metric`).
 ---
 
 # Persistência de dados
@@ -147,7 +157,7 @@ fetch("http://localhost:3000/viagens")
 
 # Responsividade
 
-O layout utiliza **Bootstrap Grid System** para adaptação a diferentes tamanhos de tela:
+O layout utiliza o Bootstrap Grid System e classes utilitárias (ex: col-md-6, mt-3, bg-primary) para adaptação a diferentes tamanhos de tela:
 
 * Mobile
 * Tablet
