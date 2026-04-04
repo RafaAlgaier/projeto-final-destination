@@ -18,14 +18,25 @@ Aplicação web para planejamento de viagens, permitindo buscar destinos, consul
 
 ## 🛠 Tecnologias utilizadas
 
-* HTML5
-* CSS3
-* Bootstrap v5.3.3
-* JavaScript (ES6+)
-* jQuery v3.7.1
-* JSON Server v0.17.x
-* Web Storage (localStorage)
-* OpenWeather API v2.5
+
+- **Framework CSS:** Bootstrap v5.3.3  
+  *Escolhido por sua ampla documentação, responsividade pronta para mobile, tablet e desktop, além de componentes prontos como cards, modais e navbars, que facilitam a implementação do layout prototipado.*
+
+- **JavaScript (ES6+) & jQuery v3.7.1**  
+  *Para interatividade, manipulação do DOM e validação de formulários.*
+
+- **Fake API:** JSON Server v0.17.x  
+  *Permite simular um backend para persistência de dados de usuários e viagens.*
+
+- **Web Storage (localStorage)**  
+  *Para armazenar usuário logado, preferências e destinos favoritos localmente.*
+
+- **API Pública:** OpenWeather API v2.5  
+  *Integração para fornecer dados de clima em tempo real dos destinos pesquisados, enriquecendo a experiência do usuário com informações úteis e confiáveis.*
+
+## Protótipo e Layout
+
+O layout foi desenhado com base em **Bootstrap**, garantindo responsividade e consistência visual em todos os dispositivos. Cards de destinos, formulários de cadastro e login, e modais foram implementados usando componentes prontos do framework.
 
 ---
 
