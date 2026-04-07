@@ -72,6 +72,14 @@ Para mais detalhes sobre o projeto:
 * 📗 [Especificação Técnica (SPEC)](docs/spec.md)
 
 ---
+## ✅ Checklist da Atividade
+
+- [x] Clonei o repositório
+- [x] Inicializei o Node.js (npm init)
+- [x] Criei o arquivo .gitignore
+- [x] Instalei dependências (jquery)
+- [x] Instalei dependências de desenvolvimento (gh-pages)
+- [x] Realizei commits e push no GitHub
 
 ## 👨‍💻 Autor
 
