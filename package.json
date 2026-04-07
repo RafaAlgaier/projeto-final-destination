@@ -19,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/RafaAlgaier/projeto-final-destination/issues"
   },
-  "homepage": "https://github.com/RafaAlgaier/projeto-final-destination#readme"
+  "homepage": "https://github.com/RafaAlgaier/projeto-final-destination#readme",
+  "dependencies": {
+    "jquery": "^4.0.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
 }
