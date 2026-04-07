@@ -1,0 +1,23 @@
+{
+  "name": "projeto-final-destination",
+  "version": "1.0.0",
+  "description": "Aplicação web para planejamento de viagens, permitindo buscar destinos, consultar clima e gerenciar viagens de forma simples e intuitiva.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RafaAlgaier/projeto-final-destination.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RafaAlgaier/projeto-final-destination/issues"
+  },
+  "homepage": "https://github.com/RafaAlgaier/projeto-final-destination#readme"
+}
