@@ -8,7 +8,7 @@
 
 ---
 
-# Descrição do Sistema
+# Descrição do Sistema 
 
 O **Final Destination** é uma aplicação web responsiva inspirada em plataformas de hospedagem e planejamento de viagens como Airbnb e Booking.com.
 
@@ -17,34 +17,14 @@ O objetivo do sistema é permitir que usuários pesquisem destinos, consultem in
 O sistema resolve o problema de **organização de viagens**, permitindo que o usuário registre destinos, datas e orçamento em um único lugar.
 
 ---
+## ⚙️ Regras de Negócio
 
-# Atores do Sistema
-
-## Visitante
-
-Usuário que acessa o site sem autenticação.
-
-Pode:
-
-* visualizar a página inicial
-* pesquisar destinos
-* consultar o clima de uma cidade
-
----
-
-## Usuário Autenticado
-
-Usuário que realizou login no sistema.
-
-Pode:
-
-* cadastrar viagens
-* visualizar suas viagens
-* editar viagens
-* excluir viagens
-* salvar destinos favoritos
-
----
+- O usuário deve estar autenticado para cadastrar, editar ou excluir viagens.
+- Cada viagem deve conter destino, data e orçamento obrigatoriamente.
+- A consulta de clima será feita em tempo real através de uma API externa.
+- Um usuário pode ter múltiplas viagens cadastradas.
+- Apenas o usuário dono da viagem pode editá-la ou excluí-la.
+- O sistema deve ser responsivo (mobile e desktop).
 
 # Histórias de Usuário
 
