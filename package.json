@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/RafaAlgaier/projeto-final-destination#readme",
   "dependencies": {
+    "bootstrap": "^5.3.8",
     "jquery": "^4.0.0"
   },
   "devDependencies": {

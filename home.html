@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Final Destination</title>
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="bg-light-custom">
+    <!-- HEADER -->
+    <header
+      class="navbar navbar-expand-lg fixed-top glass-nav py-3 bg-white shadow-sm"
+    >
+      <div class="container">
+        <!-- Logo -->
+        <a
+          class="navbar-brand d-flex align-items-center fw-bold fs-3 text-danger-custom"
+          href="#"
+        >
+          Final Destination
+        </a>
+
+        <!-- Search -->
+        <div
+          class="search-bar d-none d-md-flex align-items-center px-4 py-2 rounded-pill bg-white shadow-sm mx-auto"
+        >
+          <div>
+            <div class="fw-bold small">Para onde vamos?</div>
+
+            <div class="text-muted small">
+              Qualquer lugar • Qualquer semana • Hóspedes
+            </div>
+          </div>
+        </div>
+
+        <!-- Profile -->
+        <div class="d-none d-md-flex align-items-center gap-3">
+          <button class="btn btn-light rounded-pill px-3">
+            Anuncie seu espaço
+          </button>
+
+          <button
+            class="btn btn-light rounded-pill d-flex align-items-center gap-2 px-3"
+          >
+            Menu
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- MAIN -->
+    <main class="container pt-5 mt-5 pb-5">
+      <!-- Categories -->
+      <section class="py-4 overflow-auto">
+        <div class="d-flex gap-4 flex-nowrap">
+          <button class="btn btn-category active">
+            <small>Cabanas</small>
+          </button>
+
+          <button class="btn btn-category">
+            <small>Praias</small>
+          </button>
+
+          <button class="btn btn-category">
+            <small>Design</small>
+          </button>
+
+          <button class="btn btn-category">
+            <small>Tropical</small>
+          </button>
+
+          <button class="btn btn-category">
+            <small>Piscinas</small>
+          </button>
+        </div>
+      </section>
+
+      <!-- Cards -->
+      <section class="mt-4">
+        <div class="row g-4">
+          <!-- Card destaque -->
+          <div class="col-lg-6">
+            <div class="card border-0 shadow-sm overflow-hidden">
+              <div
+                class="bg-secondary d-flex align-items-center justify-content-center"
+                style="height: 300px"
+              >
+                <span class="text-white fw-bold"> Imagem removida </span>
+              </div>
+
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <div>
+                    <h5 class="fw-bold">Cabana nas Montanhas, Gramado</h5>
+
+                    <p class="text-muted mb-1">
+                      Design sustentável e vista panorâmica
+                    </p>
+
+                    <p class="text-muted mb-2">15-20 de Julho</p>
+
+                    <p class="fw-bold mb-0">R$ 1.250 noite</p>
+                  </div>
+
+                  <div class="fw-semibold">⭐ 4,98</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card -->
+          <div class="col-md-6 col-lg-3">
+            <div class="card border-0 shadow-sm h-100">
+              <div
+                class="bg-secondary d-flex align-items-center justify-content-center"
+                style="height: 220px"
+              >
+                <span class="text-white fw-bold"> Imagem removida </span>
+              </div>
+
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <div>
+                    <h6 class="fw-bold">Ubatuba, Brasil</h6>
+
+                    <p class="text-muted small mb-1">A 50m da Praia</p>
+
+                    <p class="text-muted small">22-27 de Setembro</p>
+
+                    <p class="fw-bold mb-0">R$ 890 noite</p>
+                  </div>
+
+                  <small class="fw-semibold"> ⭐ 4,85 </small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card -->
+          <div class="col-md-6 col-lg-3">
+            <div class="card border-0 shadow-sm h-100">
+              <div
+                class="bg-secondary d-flex align-items-center justify-content-center"
+                style="height: 220px"
+              >
+                <span class="text-white fw-bold"> Imagem removida </span>
+              </div>
+
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <div>
+                    <h6 class="fw-bold">Lages, Santa Catarina</h6>
+
+                    <p class="text-muted small mb-1">Cabana A-frame clássica</p>
+
+                    <p class="text-muted small">10-15 de Agosto</p>
+
+                    <p class="fw-bold mb-0">R$ 675 noite</p>
+                  </div>
+
+                  <small class="fw-semibold"> ⭐ 4,92 </small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Banner -->
+      <section class="mt-5">
+        <div class="card border-0 p-5 shadow-sm">
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <h2 class="fw-bold mb-3">
+                Sinta-se em casa em qualquer lugar do mundo.
+              </h2>
+
+              <p class="text-muted">
+                Descubra espaços únicos, de cabanas rústicas a castelos
+                modernos.
+              </p>
+
+              <button class="btn btn-danger px-4 py-3 rounded-4 fw-bold mt-3">
+                Começar agora
+              </button>
+            </div>
+
+            <div class="col-lg-6 mt-4 mt-lg-0">
+              <div class="row g-3">
+                <div class="col-6">
+                  <div
+                    class="bg-secondary rounded-4 shadow d-flex align-items-center justify-content-center"
+                    style="height: 200px"
+                  >
+                    <span class="text-white fw-bold"> Imagem removida </span>
+                  </div>
+                </div>
+
+                <div class="col-6">
+                  <div
+                    class="bg-secondary rounded-4 shadow d-flex align-items-center justify-content-center mt-4"
+                    style="height: 200px"
+                  >
+                    <span class="text-white fw-bold"> Imagem removida </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- MOBILE NAV -->
+    <nav class="mobile-nav d-md-none">
+      <a href="#" class="active">
+        <small>Explorar</small>
+      </a>
+
+      <a href="#">
+        <small>Viagens</small>
+      </a>
+
+      <a href="#">
+        <small>Mensagens</small>
+      </a>
+
+      <a href="#">
+        <small>Perfil</small>
+      </a>
+    </nav>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

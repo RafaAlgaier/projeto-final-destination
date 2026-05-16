@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Perfil - Final Destination</title>
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Icons -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar fixed-top bg-white shadow-sm px-3">
+      <div
+        class="container-fluid d-flex justify-content-between align-items-center"
+      >
+        <div class="d-flex align-items-center gap-2">
+          <img
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuD6ZoxBwVzMVdvEKavDhgOqU6woieSqTbCkK9fTeBEFXPB_VQjW6AeBl8ZVvaJfP7cNLFKjcpQ8_DX13mzLg78rjOnBUPwJx4TayltrPRYYyfrYOJ32b9DEpZjx4wCcgSmWeRyXngUjWDlctipkwM-xk6CnLmPaZ9AM6dvExLDiXNPrmUVZq4xdAP7ZuAN7BRS-q7noyDoEpIae6Bbrpbioi3lj-XuqFzy-IQUtax4Z1xPr1Kp7DKPRJHcMaB15NWMVXoxB9vAIGpQv"
+            class="avatar-sm rounded-circle border border-danger"
+          />
+
+          <span class="fw-bold text-danger fs-5">Perfil</span>
+        </div>
+
+        <span class="material-symbols-outlined text-secondary">settings</span>
+      </div>
+    </nav>
+
+    <!-- CONTEÚDO -->
+    <main class="container profile-container">
+      <!-- PERFIL -->
+      <div class="text-center mb-4">
+        <div class="position-relative d-inline-block">
+          <img
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuAZF9CFKPhByoTHU45ysiWRvipFIvg9iC3r3yQqp0xnYciWDN4pP55ATG7k4iShvNOpK2l5Ynn4NQDIjznu8c6nkdNlG73VPK3_KozDWu_lcp7bj14yOnJidHwBM9XWde8GdLXyJ_kyFM3p9RRo_weaB7-vYbr-5YNgAnQ9n-gInOIEah1UFqJkb-bWkcaXC2qcSiOB-9vzGSjPbwvYEnOTIpKWhe5VPqL3OcGKt4-ffWjbvpKBxJj50S97Mf_np7L4z7iBBqMDZBgL"
+            class="profile-img rounded-circle"
+          />
+
+          <button class="edit-btn">✎</button>
+        </div>
+
+        <h3 class="fw-bold mt-3">Mariana Silva</h3>
+        <p class="text-muted">mariana.silva@email.com</p>
+
+        <div class="d-flex justify-content-center gap-2">
+          <span class="badge badge-pro">VIAJANTE PRO</span>
+          <span class="badge badge-trips">12 VIAGENS</span>
+        </div>
+      </div>
+
+      <!-- STATS -->
+      <div class="row g-3 mb-4">
+        <div class="col-6">
+          <div class="stat-card text-center">
+            <span class="material-symbols-outlined text-danger">wallet</span>
+            <h5 class="fw-bold">R$ 1.240</h5>
+            <small class="text-muted">Créditos</small>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <div class="stat-card text-center">
+            <span class="material-symbols-outlined text-success">star</span>
+            <h5 class="fw-bold">4.9</h5>
+            <small class="text-muted">Avaliação</small>
+          </div>
+        </div>
+      </div>
+
+      <!-- SETTINGS -->
+      <div class="card settings-card mb-4">
+        <button class="settings-item">
+          <div class="d-flex align-items-center gap-3">
+            <span class="icon-box text-danger">person</span>
+            <div>
+              <div class="fw-bold">Profile Information</div>
+              <small class="text-muted">Manage your personal data</small>
+            </div>
+          </div>
+          <span>›</span>
+        </button>
+
+        <hr />
+
+        <button class="settings-item">
+          <div class="d-flex align-items-center gap-3">
+            <span class="icon-box">payments</span>
+            <div>
+              <div class="fw-bold">Payment Methods</div>
+              <small class="text-muted">Cards and wallets</small>
+            </div>
+          </div>
+          <span>›</span>
+        </button>
+
+        <hr />
+
+        <button class="settings-item">
+          <div class="d-flex align-items-center gap-3">
+            <span class="icon-box">notifications</span>
+            <div>
+              <div class="fw-bold">Notifications</div>
+            </div>
+          </div>
+          <span>›</span>
+        </button>
+
+        <hr />
+
+        <button class="settings-item">
+          <div class="d-flex align-items-center gap-3">
+            <span class="icon-box">security</span>
+            <div>
+              <div class="fw-bold">Security</div>
+            </div>
+          </div>
+          <span>›</span>
+        </button>
+      </div>
+
+      <!-- SUPPORT -->
+      <div class="mb-2">
+        <small class="text-uppercase text-muted fw-bold">Support</small>
+      </div>
+
+      <div class="card settings-card mb-4">
+        <button class="settings-item">
+          <div class="d-flex align-items-center gap-3">
+            <span class="icon-box">help_center</span>
+            <div class="fw-bold">Help Center</div>
+          </div>
+          <span>↗</span>
+        </button>
+      </div>
+
+      <!-- LOGOUT -->
+      <button class="btn btn-outline-danger w-100 fw-bold py-3">Logout</button>
+
+      <p class="text-center text-muted small mt-4">Final Destination v2.4.0</p>
+    </main>
+
+    <!-- BOTTOM NAV -->
+    <nav class="bottom-nav">
+      <div class="nav-item">🔍<br /><small>Explorar</small></div>
+
+      <div class="nav-item">🧳<br /><small>Viagens</small></div>
+
+      <div class="nav-item">❤️<br /><small>Salvos</small></div>
+
+      <div class="nav-item active">👤<br /><small>Perfil</small></div>
+    </nav>
+  </body>
+</html>

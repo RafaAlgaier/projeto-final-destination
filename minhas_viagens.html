@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Final Destination - Viagens</title>
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Icons -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg fixed-top bg-white shadow-sm px-3">
+      <div class="container-fluid">
+        <a
+          class="navbar-brand fw-bold text-danger d-flex align-items-center gap-2"
+          href="#"
+        >
+          <span class="material-symbols-outlined text-danger"
+            >travel_explore</span
+          >
+          Final Destination
+        </a>
+
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#nav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="nav">
+          <div class="ms-auto d-flex gap-3">
+            <a class="nav-link text-secondary" href="#">Explorar</a>
+            <a class="nav-link fw-bold text-danger" href="#">Viagens</a>
+            <a class="nav-link text-secondary" href="#">Mensagens</a>
+            <a class="nav-link text-secondary" href="#">Perfil</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- CONTEÚDO -->
+    <main class="container app-container">
+      <!-- HEADER -->
+      <div class="mb-4">
+        <small class="text-danger fw-bold text-uppercase">Suas Aventuras</small>
+        <h1 class="fw-bold">Suas viagens</h1>
+        <div class="underline"></div>
+      </div>
+
+      <!-- GRID -->
+      <div class="row g-4">
+        <!-- CARD 1 -->
+        <div class="col-md-6">
+          <div class="card trip-card">
+            <div class="position-relative">
+              <img
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCq_CZs2aLCvf5egBBTKGAwRW2EBM0YExlrAxAivp7j_3whCrDbYyrNaiBIcwkoI-5frCY6V_aDQ5ynw52c4PNC4KSqN50skm9LI_vUWzS_7RUj4M7vi6AINpXUJUI3pmfTxc0F-cvM3tf_chOau_21QQjU0Q253UM-RD7xnF7gcniMa18GhtJbnXREKMYfXjqxAgse5Yx8HCnS03NpLZmLu4AOYVw3gCGMC42sxmpoC5qY13bhM0A1ntmXMFrWjiWuUREABkduS5MV"
+                class="card-img-top trip-img"
+              />
+
+              <span class="status-badge confirmed">Confirmada</span>
+            </div>
+
+            <div class="card-body">
+              <h5 class="fw-bold">Rio de Janeiro, Brasil</h5>
+              <small class="text-muted">15 - 20 de Outubro</small>
+
+              <div class="mt-3 d-flex align-items-center gap-2">
+                <img
+                  class="avatar"
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuACiwKhAnmjcPFbPVn8oSJEd2znXdvY9hpWG5JMPnAKgnjYWko0MGMDFXZcEJfilDwfEiFPPdUWLYdMdzUbvOAVBii0mpQHg-dagcJcBPVngLiAnokjOLnpK5pHrpts5nn8WlQr-ySdMxRceYfsQ1bolUOoeanGfPwcDg5P_9UX65Bwvl9xXa-6JxenQsWcZRSj8n4-PoCAUw5lq2vqhGwXW6wyi0UKTALc4M4xDl3g3QaHZWPbr1ScfigOY68JquirImoFgqwk9qrZ"
+                />
+                <img
+                  class="avatar"
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuDeBUJTHj0Mb_z31GJ78SQaxA630e5qBgfyAjqKzeyXq0BpxTUY4ZKAuMS7JQQ5xXCXp_8WqXncvs4lW3rqw1hXo8_Ie-qHzhmEZuhnMi7ELzgxRPiwXCbkZTM_blK2RCWHsvveXwf-cRhppxVXr72Tdceri8LJWzfbffCwCDF7ODU_0NAiDWdZ-j39BiJ3XMIYhMkDusXjqsEQFgQS2B3lIiKDKZUFTWYKmYtzSnnM2H4-75XWh4iZ1vTLZQ4jnTqqekXTwpUBQW-R"
+                />
+                <small class="text-muted">+2 viajantes</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="col-md-6">
+          <div class="card trip-card">
+            <div class="position-relative">
+              <img
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuABP7ufIN83Mu9WGOeP4OEDcATtdExjKjx_VwIGrvQu_tnLna9vghN-Zg4NKyLIDnOxyODFOSzYnfT4RE1hIwyz-YPTdK7QwjHKv4K_6y6urNoHQMPXYalukmZHlO8hiPZk9pwImHdihSPXZx7iIqlPABOfGr6zmUH5T2afnbhAe6fQy-cQCpseE-aJGPy-uGGZ_GBb47JUVD3rhL2UYDjoGv26SXMJrIY9vzyXXcRjBHHm37fHsgZl_jXR_mb-7hVswykZ-YlxY6n6"
+                class="card-img-top trip-img"
+              />
+
+              <span class="status-badge pending">Pendente</span>
+            </div>
+
+            <div class="card-body">
+              <h5 class="fw-bold">Bariloche, Argentina</h5>
+              <small class="text-muted">02 - 08 de Dezembro</small>
+
+              <div class="mt-3">
+                <small class="text-muted">Viagem solo</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SUGESTÃO -->
+      <div class="card suggestion-card mt-5">
+        <div class="row g-0 align-items-center">
+          <div class="col-md-8 p-4">
+            <h4 class="fw-bold">Planeje sua próxima escapada</h4>
+            <p class="text-muted">
+              Inspirado pelas suas viagens recentes para o Rio, que tal explorar
+              as praias de Búzios?
+            </p>
+            <button class="btn btn-danger fw-bold">Ver Recomendações</button>
+          </div>
+
+          <div class="col-md-4">
+            <img
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuAANTA3SqfHBxW1c3DtCuOHP-w27vQ-QkaShddpGtQrY74cL8SijoZ3sdpqCoaeTlyiHkO4prBwwircMTR1-aRJ9s08HWbh2_qhCBEafT-ROuV9_paB2NU-kgBSaS52h5ymSvJozLExQrULMONot6jL2h_NFLQMk8EiJuQmWQ6jhkx2Y_NPGVfQUt1nUCISvMbzGoXGoCR4fhlElQLRz_g3-HoKXojxnxX8Q15ZYFgkjwbFgteo9Gn2J6KhhIB-tOIgE7CARymQ_Myo"
+              class="img-fluid suggestion-img"
+            />
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- EMPTY STATE (opcional) -->
+    <div class="container text-center empty-state d-none">
+      <span class="material-symbols-outlined display-1 text-danger"
+        >luggage</span
+      >
+      <h3 class="fw-bold">Nenhuma viagem ainda</h3>
+      <p class="text-muted">Vamos encontrar o destino perfeito para você?</p>
+      <button class="btn btn-danger">Começar</button>
+    </div>
+
+    <!-- BOTTOM NAV -->
+    <nav class="bottom-nav">
+      <div>🔍<br /><small>Explorar</small></div>
+      <div class="active">🧳<br /><small>Viagens</small></div>
+      <div>💬<br /><small>Mensagens</small></div>
+      <div>👤<br /><small>Perfil</small></div>
+    </nav>
+  </body>
+</html>
